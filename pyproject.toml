@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "taskwaterapp"
+version = "0.1.0"
+description = ""
+authors = ["Unti1 <kostyuchenko.work@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.7.2"
+bson = "^0.5.10"
+pydantic = "^2.7.2"
+fastapi = "^0.111.0"
+pandas = "^2.2.2"
+aiogram = "^3.6.0"
+apscheduler = "^3.10.4"
+pytest = "^8.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
